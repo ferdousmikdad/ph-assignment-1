@@ -7,6 +7,7 @@
 	--color-secondary: rgb(13, 19, 33, 0.2);
     --color-background: #F5F5F5;
 	--color-normal-text: #0D1321;
+    --color-70: rgb(13, 19, 33, 0.7);
     --white-text: #FFFFFF;
 
     /* max-width */
@@ -133,21 +134,82 @@ p{
 
 
 .purpose--items h2{
-    font-size: 3.6rem;
+    font-size: 3rem;
     margin-bottom: 2.4rem;
     text-align: center;
 }
 
 .purpose--items p{
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .purpose___item{
     display: flex;
-    align-items: space-between;
-    margin: 0 auto;
-    padding: 8rem 0 0 0;
-
-    background-color: var(--white-text);
+    justify-content: center;
+    padding: 4rem 6rem;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     border-radius: 1.6rem;
+    margin-bottom: 3rem;
+}
+.purpose___item img{
+    margin-right: 3rem;
+}
+
+.purpose-feature{
+    margin: 0 15rem 0 0;
+}
+
+.purpose-feature> h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-70);
+    line-height: 3.5rem;
+}
+.purpose-feature> p{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.purpose-feature> button{
+    color: var(--color-70);
+    padding: 1.2rem 2rem;
+}
+
+.purpose___item-rtl{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/* inspiration */
+
+.inspiration-items{
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration-items> p{
+    text-align: center;
+    margin: 2rem 10rem 5rem 10rem;
+}
+
+.youtube-video{
+    border: .5px solid var(--color-70);
+    padding: 2.5rem;
+    border-radius: 1.6rem;
+}
+
+.youtube-video> iframe{
+    width: 107rem;
+    height: 55rem;
+    border-radius: 1.6rem;
+}
+
+
+/* MY Current target */
+.target-item{
+    background-color: rgb(255, 76, 30, 0.1);
 }
