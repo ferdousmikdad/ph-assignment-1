@@ -84,6 +84,11 @@ p{
     background-color: var(--color-primary);
     color: var(--white-text);
 }
+.btn-secondary> a{
+    text-decoration: none;
+    color: var(--white-text);
+    transition: 0.5s;
+}
 
 .btn a{
     text-decoration: none;
