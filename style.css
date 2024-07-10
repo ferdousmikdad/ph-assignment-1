@@ -54,7 +54,7 @@ p{
     text-align: center;
 }
 
-/* Navbar */
+/* Navbar styles */
 
 .navbar{
     display: flex;
@@ -74,9 +74,10 @@ p{
     font-weight: 600;
     padding: 1.5rem 2.5rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 .btn-secondary{
-    font-family: "Aeret Mono", monospace;
+    font-family: "Azeret Mono", monospace;
     font-size: 2rem;
     font-weight: 600;
     padding: 1.5rem 2.5rem;
@@ -94,8 +95,6 @@ p{
     text-decoration: none;
     color: var(--color-primary);
 }
-
-
 
 
 /* hero section */
@@ -127,8 +126,7 @@ p{
     margin: 0 0 2.5rem 0;
 }
 
-
-/* main section */
+/* main content */
 .main-section{
     margin-top: 8rem;
 }
@@ -187,13 +185,17 @@ p{
     padding: 1.2rem 2rem;
 }
 
+.btn> a{
+    color: var(--color-70);
+}
+
 .purpose___item-rtl{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
 
 
-/* inspiration */
+/* inspiration-section */
 
 .inspiration-items{
     margin-top: 9rem;
